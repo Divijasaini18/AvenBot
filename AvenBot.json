@@ -1,0 +1,2752 @@
+{
+    "intents": [{
+            "intent": "Avengers",
+            "examples": [{
+                    "text": "#avengers"
+                },
+                {
+                    "text": "#AvengerSuperHero"
+                },
+                {
+                    "text": "#Super_Hero"
+                },
+                {
+                    "text": "#superhero"
+                },
+                {
+                    "text": "#Super_Heroes"
+                }
+            ],
+            "description": ""
+        },
+        {
+            "intent": "Black_Panther",
+            "examples": [{
+                    "text": "#blackpanther"
+                },
+                {
+                    "text": "#prince"
+                },
+                {
+                    "text": "#T'Challa"
+                }
+            ],
+            "description": ""
+        },
+        {
+            "intent": "BlackWidow",
+            "examples": [{
+                    "text": "#blackwidow"
+                },
+                {
+                    "text": "#Natasha Romanova"
+                },
+                {
+                    "text": "#Scarlett Johnson"
+                }
+            ],
+            "description": ""
+        },
+        {
+            "intent": "Bot_Control_Approve_Response",
+            "examples": [{
+                    "text": "Affirmative. That's what I'm looking for."
+                },
+                {
+                    "text": "All right"
+                },
+                {
+                    "text": "Correct"
+                },
+                {
+                    "text": "For sure!"
+                },
+                {
+                    "text": "Got it"
+                },
+                {
+                    "text": "Great"
+                },
+                {
+                    "text": "I agree"
+                },
+                {
+                    "text": "I like that"
+                },
+                {
+                    "text": "Indeed!"
+                },
+                {
+                    "text": "Sure thing!"
+                },
+                {
+                    "text": "Sweet"
+                },
+                {
+                    "text": "That is precisely what I was looking for"
+                },
+                {
+                    "text": "That is right"
+                },
+                {
+                    "text": "That is the proper response."
+                },
+                {
+                    "text": "That is what I need"
+                },
+                {
+                    "text": "That's exactly what I want"
+                },
+                {
+                    "text": "This is alright"
+                },
+                {
+                    "text": "Very well. Let's do it."
+                },
+                {
+                    "text": "Yeah, that's it!"
+                },
+                {
+                    "text": "Yes"
+                },
+                {
+                    "text": "You read my mind"
+                }
+            ],
+            "description": "Acknowledge that the response satisfies a question."
+        },
+        {
+            "intent": "Bot_Control_Change_Subject",
+            "examples": [{
+                    "text": "A different matter"
+                },
+                {
+                    "text": "Another thing"
+                },
+                {
+                    "text": "Can we talk about something else?"
+                },
+                {
+                    "text": "Change topic"
+                },
+                {
+                    "text": "Chat about something else"
+                },
+                {
+                    "text": "Discuss something else"
+                },
+                {
+                    "text": "Help me with this other question"
+                },
+                {
+                    "text": "Here is another issue"
+                },
+                {
+                    "text": "I have one more question"
+                },
+                {
+                    "text": "Let us change the topic"
+                },
+                {
+                    "text": "Let us talk about something else"
+                },
+                {
+                    "text": "Talk about something else"
+                }
+            ],
+            "description": "Change to a different topic."
+        },
+        {
+            "intent": "Bot_Control_Clarification",
+            "examples": [{
+                    "text": "Can you say that again please?"
+                },
+                {
+                    "text": "Come again?"
+                },
+                {
+                    "text": "Explains"
+                },
+                {
+                    "text": "I did not quite understand what you gave me"
+                },
+                {
+                    "text": "I didn't catch that"
+                },
+                {
+                    "text": "I didn't quite understand what you said"
+                },
+                {
+                    "text": "I didn't understand that properly"
+                },
+                {
+                    "text": "I don't get it"
+                },
+                {
+                    "text": "I don't understand"
+                },
+                {
+                    "text": "I don't understand what you're saying"
+                },
+                {
+                    "text": "I need more information"
+                },
+                {
+                    "text": "Let's try to say that again more clearly, shall we?"
+                },
+                {
+                    "text": "What are you referring to?"
+                },
+                {
+                    "text": "What are you saying?"
+                },
+                {
+                    "text": "What are you talking about?"
+                },
+                {
+                    "text": "What do you mean?"
+                },
+                {
+                    "text": "What do you mean by that?"
+                }
+            ],
+            "description": "Repeat or clarify last statement."
+        },
+        {
+            "intent": "Bot_Control_Confirm_Presence",
+            "examples": [{
+                    "text": "Am I talking to someone?"
+                },
+                {
+                    "text": "Anyone there?"
+                },
+                {
+                    "text": "Are you leaving me?"
+                },
+                {
+                    "text": "Are you on?"
+                },
+                {
+                    "text": "Are you still around?"
+                },
+                {
+                    "text": "Are you still here with me?"
+                },
+                {
+                    "text": "Are you there?"
+                },
+                {
+                    "text": "Did you go somewhere?"
+                },
+                {
+                    "text": "Did you hear what I said?"
+                },
+                {
+                    "text": "Have I lost you?"
+                },
+                {
+                    "text": "I am still holding"
+                },
+                {
+                    "text": "Is anybody here?"
+                },
+                {
+                    "text": "Is anybody home?"
+                },
+                {
+                    "text": "Speak to me if you are there."
+                },
+                {
+                    "text": "Where'd you go?"
+                },
+                {
+                    "text": "You around?"
+                }
+            ],
+            "description": "Ask the bot to indicate that it is available."
+        },
+        {
+            "intent": "Bot_Control_Ignore_Undo",
+            "examples": [{
+                    "text": "Actually, I take that back"
+                },
+                {
+                    "text": "Cancel"
+                },
+                {
+                    "text": "Hold on! I think I want to do it differently."
+                },
+                {
+                    "text": "I change my mind."
+                },
+                {
+                    "text": "I did not mean that?"
+                },
+                {
+                    "text": "I didn't mean to do that actually, let's go back"
+                },
+                {
+                    "text": "Ignore this"
+                },
+                {
+                    "text": "It's not what I mean"
+                },
+                {
+                    "text": "Let us redo that again!"
+                },
+                {
+                    "text": "Never"
+                },
+                {
+                    "text": "Never mind"
+                },
+                {
+                    "text": "Nothing"
+                },
+                {
+                    "text": "Not yet"
+                },
+                {
+                    "text": "Wait! Let's back up few steps and do that again"
+                }
+            ],
+            "description": "Ask the bot to take one step back."
+        },
+        {
+            "intent": "Bot_Control_Reject_Response",
+            "examples": [{
+                    "text": "Bad response"
+                },
+                {
+                    "text": "I disagree"
+                },
+                {
+                    "text": "I do not think it is the answer?"
+                },
+                {
+                    "text": "I don't need that"
+                },
+                {
+                    "text": "I don't want that"
+                },
+                {
+                    "text": "It is not what I want"
+                },
+                {
+                    "text": "It is not what I was looking for"
+                },
+                {
+                    "text": "I wasn't looking for that"
+                },
+                {
+                    "text": "No"
+                },
+                {
+                    "text": "No I'm fine thanks"
+                },
+                {
+                    "text": "Not the right response"
+                },
+                {
+                    "text": "That answer is incorrect"
+                },
+                {
+                    "text": "That is not true"
+                },
+                {
+                    "text": "That sounds like the wrong response"
+                },
+                {
+                    "text": "That was not my intent"
+                },
+                {
+                    "text": "That was wrong, try again"
+                },
+                {
+                    "text": "Wrong response"
+                },
+                {
+                    "text": "You did not understand what I asked"
+                },
+                {
+                    "text": "You did not understand what I said"
+                },
+                {
+                    "text": "You didn't understand me"
+                },
+                {
+                    "text": "You're misunderstanding me"
+                }
+            ],
+            "description": "Indicate the bot's response does not address a question."
+        },
+        {
+            "intent": "Bot_Control_Standby",
+            "examples": [{
+                    "text": "Back again soon"
+                },
+                {
+                    "text": "Be back later"
+                },
+                {
+                    "text": "Be patient with me"
+                },
+                {
+                    "text": "Can you give me a moment?"
+                },
+                {
+                    "text": "Can you wait for me?"
+                },
+                {
+                    "text": "Give me a few minutes to get together"
+                },
+                {
+                    "text": "Give me a moment"
+                },
+                {
+                    "text": "Give me a second"
+                },
+                {
+                    "text": "Hold on"
+                },
+                {
+                    "text": "In a moment"
+                },
+                {
+                    "text": "I want stop a moment"
+                },
+                {
+                    "text": "I will be back"
+                },
+                {
+                    "text": "I would like to put you on hold"
+                },
+                {
+                    "text": "Just a sec"
+                },
+                {
+                    "text": "Just hold on"
+                },
+                {
+                    "text": "Keep holding"
+                },
+                {
+                    "text": "Let me see"
+                },
+                {
+                    "text": "Need a minute here"
+                },
+                {
+                    "text": "Out for a break"
+                },
+                {
+                    "text": "Wait"
+                }
+            ],
+            "description": "Indicate a delay in providing input to the bot."
+        },
+        {
+            "intent": "Bot_Control_Start_Over",
+            "examples": [{
+                    "text": "Actually, let's start over"
+                },
+                {
+                    "text": "Back to the beginning"
+                },
+                {
+                    "text": "Back to the top"
+                },
+                {
+                    "text": "Begin over!"
+                },
+                {
+                    "text": "Can we please start over?"
+                },
+                {
+                    "text": "How can I start over?"
+                },
+                {
+                    "text": "I need to reset."
+                },
+                {
+                    "text": "I want start from the beginning"
+                },
+                {
+                    "text": "I would like to start all over"
+                },
+                {
+                    "text": "Let's go back to square one"
+                },
+                {
+                    "text": "Let's pick this up from the top again."
+                },
+                {
+                    "text": "Let us reopen this again."
+                },
+                {
+                    "text": "One more time from the beginning"
+                },
+                {
+                    "text": "Please initiate from the beginning"
+                },
+                {
+                    "text": "Please reset"
+                },
+                {
+                    "text": "Please start a new chat"
+                },
+                {
+                    "text": "Restart"
+                },
+                {
+                    "text": "Start over"
+                },
+                {
+                    "text": "We need a do-over"
+                },
+                {
+                    "text": "We will need to begin again"
+                }
+            ],
+            "description": "Restart bot or current flow."
+        },
+        {
+            "intent": "Bot_Control_Unsure",
+            "examples": [{
+                    "text": "I don t know what you need"
+                },
+                {
+                    "text": "I don t know what you want"
+                },
+                {
+                    "text": "I have no idea, actually"
+                },
+                {
+                    "text": "I have no idea what you are looking for"
+                },
+                {
+                    "text": "I haven't got a clue"
+                },
+                {
+                    "text": "I m not certain I get what you re saying"
+                },
+                {
+                    "text": "I m not sure what will make you happy"
+                },
+                {
+                    "text": "I m not yet convinced"
+                },
+                {
+                    "text": "No clue"
+                },
+                {
+                    "text": "No idea"
+                },
+                {
+                    "text": "To be honest, I m really not sure"
+                },
+                {
+                    "text": "You got me"
+                }
+            ],
+            "description": "Indicate no definite answer to a question."
+        },
+        {
+            "intent": "Captain_America",
+            "examples": [{
+                    "text": "#captainamerica"
+                },
+                {
+                    "text": "#CaptainAmericaMovie"
+                },
+                {
+                    "text": "#Steve_Rogers"
+                },
+                {
+                    "text": "#steverogers"
+                }
+            ],
+            "description": ""
+        },
+        {
+            "intent": "Captain_Marvel",
+            "examples": [{
+                    "text": "#captainmarvel"
+                },
+                {
+                    "text": "#powerfulavenger"
+                },
+                {
+                    "text": "#Tony Stark's Daughter"
+                }
+            ],
+            "description": ""
+        },
+        {
+            "intent": "Dr.Strange",
+            "examples": [{
+                    "text": "#drstrange"
+                },
+                {
+                    "text": "#Stephen Strange"
+                },
+                {
+                    "text": "#stephenstrange"
+                }
+            ],
+            "description": ""
+        },
+        {
+            "intent": "Extra",
+            "examples": [{
+                    "text": "#extraquestion"
+                },
+                {
+                    "text": "#Info not available"
+                }
+            ],
+            "description": ""
+        },
+        {
+            "intent": "HawkEye",
+            "examples": [{
+                    "text": "#barton"
+                },
+                {
+                    "text": "#clinton_barton"
+                },
+                {
+                    "text": "#hawk_eye"
+                }
+            ],
+            "description": ""
+        },
+        {
+            "intent": "Hi",
+            "examples": [{
+                    "text": "Bonjour"
+                },
+                {
+                    "text": "#hello"
+                },
+                {
+                    "text": "Hello"
+                },
+                {
+                    "text": "Hey!!"
+                },
+                {
+                    "text": "Welcome"
+                }
+            ],
+            "description": ""
+        },
+        {
+            "intent": "Hulk",
+            "examples": [{
+                    "text": "#Bruce_Banner"
+                },
+                {
+                    "text": "#brucebanner"
+                },
+                {
+                    "text": "#hulk"
+                },
+                {
+                    "text": "#The_Hulk"
+                },
+                {
+                    "text": "#thehulk"
+                }
+            ],
+            "description": ""
+        },
+        {
+            "intent": "Iron_Man",
+            "examples": [{
+                    "text": "#ironman"
+                },
+                {
+                    "text": "#theironman"
+                },
+                {
+                    "text": "#Tony_Stark"
+                },
+                {
+                    "text": "#tonystark"
+                }
+            ],
+            "description": ""
+        },
+        {
+            "intent": "movies",
+            "examples": [{
+                "text": "#all movies"
+            }],
+            "description": ""
+        },
+        {
+            "intent": "order",
+            "examples": [{
+                    "text": "#order of avengers movies"
+                },
+                {
+                    "text": "#sequence of avengers movies"
+                }
+            ],
+            "description": ""
+        },
+        {
+            "intent": "Portrayed_by",
+            "examples": [{
+                    "text": "#character played by"
+                },
+                {
+                    "text": "#portrayed by"
+                }
+            ],
+            "description": ""
+        },
+        {
+            "intent": "Real_name",
+            "examples": [{
+                    "text": "#name in movie"
+                },
+                {
+                    "text": "#realname"
+                },
+                {
+                    "text": "real name in movie"
+                }
+            ],
+            "description": ""
+        },
+        {
+            "intent": "ScarlettWitch",
+            "examples": [{
+                    "text": "#scarlett_witch"
+                },
+                {
+                    "text": "#wanda"
+                },
+                {
+                    "text": "#wand_maximoff"
+                }
+            ],
+            "description": ""
+        },
+        {
+            "intent": "Spider_Man",
+            "examples": [{
+                    "text": "#Peter_Parker"
+                },
+                {
+                    "text": "#peterparker"
+                },
+                {
+                    "text": "#spider"
+                },
+                {
+                    "text": "#spiderman"
+                }
+            ],
+            "description": ""
+        },
+        {
+            "intent": "The_avengers",
+            "examples": [{
+                    "text": "#Avengers_Series"
+                },
+                {
+                    "text": "#movie"
+                },
+                {
+                    "text": "#The_Avengers"
+                },
+                {
+                    "text": "#The_Avengers_Movie"
+                }
+            ],
+            "description": ""
+        },
+        {
+            "intent": "Thor",
+            "examples": [{
+                    "text": "#Chris_Hensworth"
+                },
+                {
+                    "text": "#ChrisHensworth"
+                },
+                {
+                    "text": "#The_Thor"
+                },
+                {
+                    "text": "#thor"
+                },
+                {
+                    "text": "#ThorOdinson"
+                }
+            ],
+            "description": ""
+        },
+        {
+            "intent": "Vision",
+            "examples": [{
+                    "text": "#ultron"
+                },
+                {
+                    "text": "#ultron'sandriod"
+                },
+                {
+                    "text": "#vision"
+                }
+            ],
+            "description": ""
+        }
+    ],
+    "entities": [{
+            "entity": "avengers",
+            "values": [{
+                    "type": "synonyms",
+                    "value": "avengers",
+                    "synonyms": []
+                },
+                {
+                    "type": "synonyms",
+                    "value": "Avenger Superhero",
+                    "synonyms": []
+                },
+                {
+                    "type": "synonyms",
+                    "value": "Avenger Superheroes",
+                    "synonyms": []
+                },
+                {
+                    "type": "synonyms",
+                    "value": "Super Heroes",
+                    "synonyms": []
+                }
+            ],
+            "fuzzy_match": true
+        },
+        {
+            "entity": "Benedict_Cumberbatch",
+            "values": [{
+                    "type": "synonyms",
+                    "value": "@benedictcumberbatch",
+                    "synonyms": []
+                },
+                {
+                    "type": "synonyms",
+                    "value": "@drstrangereallifecharacter",
+                    "synonyms": []
+                }
+            ],
+            "fuzzy_match": true
+        },
+        {
+            "entity": "Black_Panther",
+            "values": [{
+                    "type": "synonyms",
+                    "value": "blackpanther",
+                    "synonyms": []
+                },
+                {
+                    "type": "synonyms",
+                    "value": "prince",
+                    "synonyms": []
+                },
+                {
+                    "type": "synonyms",
+                    "value": "T'Challa",
+                    "synonyms": []
+                }
+            ],
+            "fuzzy_match": true
+        },
+        {
+            "entity": "Black_Widow",
+            "values": [{
+                    "type": "synonyms",
+                    "value": "blackwidow",
+                    "synonyms": []
+                },
+                {
+                    "type": "synonyms",
+                    "value": "Natasha Romanova",
+                    "synonyms": []
+                },
+                {
+                    "type": "synonyms",
+                    "value": "Scarlett Johnson",
+                    "synonyms": []
+                }
+            ],
+            "fuzzy_match": true
+        },
+        {
+            "entity": "Brie_Larson",
+            "values": [{
+                    "type": "synonyms",
+                    "value": "@brielarson",
+                    "synonyms": []
+                },
+                {
+                    "type": "synonyms",
+                    "value": "@captainmarvelreallifecharacter",
+                    "synonyms": []
+                }
+            ],
+            "fuzzy_match": true
+        },
+        {
+            "entity": "Captain_America",
+            "values": [{
+                    "type": "synonyms",
+                    "value": "captainamerica",
+                    "synonyms": []
+                },
+                {
+                    "type": "synonyms",
+                    "value": "CaptainAmericaMovie",
+                    "synonyms": []
+                },
+                {
+                    "type": "synonyms",
+                    "value": "Steve Rogers",
+                    "synonyms": []
+                }
+            ],
+            "fuzzy_match": true
+        },
+        {
+            "entity": "Captain_Marvel",
+            "values": [{
+                    "type": "synonyms",
+                    "value": "captainmarvel",
+                    "synonyms": []
+                },
+                {
+                    "type": "synonyms",
+                    "value": "powerfulavenger",
+                    "synonyms": []
+                },
+                {
+                    "type": "synonyms",
+                    "value": "Tony Stark's Daughter",
+                    "synonyms": []
+                }
+            ],
+            "fuzzy_match": true
+        },
+        {
+            "entity": "Chadwick_Boseman",
+            "values": [{
+                    "type": "synonyms",
+                    "value": "@blackpantherreallifecharacter",
+                    "synonyms": []
+                },
+                {
+                    "type": "synonyms",
+                    "value": "@chadwicboseman",
+                    "synonyms": []
+                }
+            ],
+            "fuzzy_match": true
+        },
+        {
+            "entity": "Chris_Evans",
+            "values": [{
+                    "type": "synonyms",
+                    "value": "@captainamericarealcharacter",
+                    "synonyms": []
+                },
+                {
+                    "type": "synonyms",
+                    "value": "@chrisevans",
+                    "synonyms": []
+                }
+            ],
+            "fuzzy_match": true
+        },
+        {
+            "entity": "Christopher_Hemsworth",
+            "values": [{
+                    "type": "synonyms",
+                    "value": "@christopherhemsworth",
+                    "synonyms": []
+                },
+                {
+                    "type": "synonyms",
+                    "value": "@thorrealcharacter",
+                    "synonyms": []
+                }
+            ],
+            "fuzzy_match": true
+        },
+        {
+            "entity": "Dr_Strange",
+            "values": [{
+                    "type": "synonyms",
+                    "value": "drstrange",
+                    "synonyms": []
+                },
+                {
+                    "type": "synonyms",
+                    "value": "Stephen Strange",
+                    "synonyms": []
+                }
+            ],
+            "fuzzy_match": true
+        },
+        {
+            "entity": "Elizabeth_Olsen",
+            "values": [{
+                    "type": "synonyms",
+                    "value": "@elizabetholsen",
+                    "synonyms": []
+                },
+                {
+                    "type": "synonyms",
+                    "value": "@scarletttwitchreallifecharacter",
+                    "synonyms": []
+                }
+            ],
+            "fuzzy_match": true
+        },
+        {
+            "entity": "Extra",
+            "values": [{
+                "type": "synonyms",
+                "value": "Info not available",
+                "synonyms": []
+            }],
+            "fuzzy_match": true
+        },
+        {
+            "entity": "Hawk_Eye",
+            "values": [{
+                    "type": "synonyms",
+                    "value": "Barton",
+                    "synonyms": []
+                },
+                {
+                    "type": "synonyms",
+                    "value": "Clinton Barton",
+                    "synonyms": []
+                },
+                {
+                    "type": "synonyms",
+                    "value": "hawkeye",
+                    "synonyms": []
+                }
+            ],
+            "fuzzy_match": true
+        },
+        {
+            "entity": "Hulk",
+            "values": [{
+                    "type": "synonyms",
+                    "value": "Bruce Banner",
+                    "synonyms": []
+                },
+                {
+                    "type": "synonyms",
+                    "value": "hulk",
+                    "synonyms": []
+                },
+                {
+                    "type": "synonyms",
+                    "value": "The Hulk",
+                    "synonyms": []
+                }
+            ],
+            "fuzzy_match": true
+        },
+        {
+            "entity": "Iron_Man",
+            "values": [{
+                    "type": "synonyms",
+                    "value": "ironman",
+                    "synonyms": []
+                },
+                {
+                    "type": "synonyms",
+                    "value": "The Iron Man",
+                    "synonyms": []
+                },
+                {
+                    "type": "synonyms",
+                    "value": "TonyStark",
+                    "synonyms": []
+                }
+            ],
+            "fuzzy_match": true
+        },
+        {
+            "entity": "Jarvis",
+            "values": [{
+                    "type": "synonyms",
+                    "value": "J.A.R.V.I.S.",
+                    "synonyms": []
+                },
+                {
+                    "type": "synonyms",
+                    "value": "Jarvis",
+                    "synonyms": []
+                }
+            ],
+            "fuzzy_match": true
+        },
+        {
+            "entity": "Jeremy_Renner",
+            "values": [{
+                    "type": "synonyms",
+                    "value": "@hawkeyerealcharacter",
+                    "synonyms": []
+                },
+                {
+                    "type": "synonyms",
+                    "value": "@jeremyrenner",
+                    "synonyms": []
+                }
+            ],
+            "fuzzy_match": true
+        },
+        {
+            "entity": "Mark_Ruffalo",
+            "values": [{
+                    "type": "synonyms",
+                    "value": "@hulkrealcharacter",
+                    "synonyms": []
+                },
+                {
+                    "type": "synonyms",
+                    "value": "@markruffalo",
+                    "synonyms": []
+                }
+            ],
+            "fuzzy_match": true
+        },
+        {
+            "entity": "movies",
+            "values": [{
+                "type": "synonyms",
+                "value": "@all movies",
+                "synonyms": []
+            }],
+            "fuzzy_match": true
+        },
+        {
+            "entity": "order",
+            "values": [{
+                    "type": "synonyms",
+                    "value": "@order",
+                    "synonyms": []
+                },
+                {
+                    "type": "synonyms",
+                    "value": "@order of avenger movies",
+                    "synonyms": []
+                },
+                {
+                    "type": "synonyms",
+                    "value": "@sequence",
+                    "synonyms": []
+                },
+                {
+                    "type": "synonyms",
+                    "value": "@sequence of avengers movies",
+                    "synonyms": []
+                }
+            ],
+            "fuzzy_match": true
+        },
+        {
+            "entity": "Paul_Bettany",
+            "values": [{
+                    "type": "synonyms",
+                    "value": "@paulbettany",
+                    "synonyms": []
+                },
+                {
+                    "type": "synonyms",
+                    "value": "@visionreallifecharacter",
+                    "synonyms": []
+                }
+            ],
+            "fuzzy_match": true
+        },
+        {
+            "entity": "Portrayed_by",
+            "values": [{
+                    "type": "synonyms",
+                    "value": "@character payed by",
+                    "synonyms": []
+                },
+                {
+                    "type": "synonyms",
+                    "value": "@played by",
+                    "synonyms": []
+                },
+                {
+                    "type": "synonyms",
+                    "value": "@portrayed by",
+                    "synonyms": []
+                }
+            ],
+            "fuzzy_match": true
+        },
+        {
+            "entity": "Realname",
+            "values": [{
+                    "type": "synonyms",
+                    "value": "@name in movie",
+                    "synonyms": []
+                },
+                {
+                    "type": "synonyms",
+                    "value": "@realname",
+                    "synonyms": []
+                },
+                {
+                    "type": "synonyms",
+                    "value": "@real name in movie",
+                    "synonyms": []
+                }
+            ],
+            "fuzzy_match": true
+        },
+        {
+            "entity": "Robert_Downey_Jr",
+            "values": [{
+                    "type": "synonyms",
+                    "value": "@ironmaninreallife",
+                    "synonyms": []
+                },
+                {
+                    "type": "synonyms",
+                    "value": "@robertdowneyjr",
+                    "synonyms": []
+                }
+            ],
+            "fuzzy_match": true
+        },
+        {
+            "entity": "Scarlett_Johansson",
+            "values": [{
+                    "type": "synonyms",
+                    "value": "@blackwidowrealcharacter",
+                    "synonyms": []
+                },
+                {
+                    "type": "synonyms",
+                    "value": "@scarlettjohansson",
+                    "synonyms": []
+                }
+            ],
+            "fuzzy_match": true
+        },
+        {
+            "entity": "Scarlett_Witch",
+            "values": [{
+                    "type": "synonyms",
+                    "value": "scarlett witch",
+                    "synonyms": []
+                },
+                {
+                    "type": "synonyms",
+                    "value": "wanda",
+                    "synonyms": []
+                },
+                {
+                    "type": "synonyms",
+                    "value": "Wanda Maximoff",
+                    "synonyms": []
+                }
+            ],
+            "fuzzy_match": true
+        },
+        {
+            "entity": "Spider_Man",
+            "values": [{
+                    "type": "synonyms",
+                    "value": "Peter Parker",
+                    "synonyms": []
+                },
+                {
+                    "type": "synonyms",
+                    "value": "Spider",
+                    "synonyms": []
+                },
+                {
+                    "type": "synonyms",
+                    "value": "spiderman",
+                    "synonyms": []
+                }
+            ],
+            "fuzzy_match": true
+        },
+        {
+            "entity": "The_avengers",
+            "values": [{
+                    "type": "synonyms",
+                    "value": "Avengers Series",
+                    "synonyms": []
+                },
+                {
+                    "type": "synonyms",
+                    "value": "Movie",
+                    "synonyms": []
+                },
+                {
+                    "type": "synonyms",
+                    "value": "The Avengers Movie",
+                    "synonyms": []
+                }
+            ],
+            "fuzzy_match": true
+        },
+        {
+            "entity": "Thor",
+            "values": [{
+                    "type": "synonyms",
+                    "value": "Chris Hensworth",
+                    "synonyms": []
+                },
+                {
+                    "type": "synonyms",
+                    "value": "The Thor",
+                    "synonyms": []
+                },
+                {
+                    "type": "synonyms",
+                    "value": "thor",
+                    "synonyms": []
+                }
+            ],
+            "fuzzy_match": true
+        },
+        {
+            "entity": "Tom_Holland",
+            "values": [{
+                    "type": "synonyms",
+                    "value": "@spidermanreallifecharacter",
+                    "synonyms": []
+                },
+                {
+                    "type": "synonyms",
+                    "value": "@tomholland",
+                    "synonyms": []
+                }
+            ],
+            "fuzzy_match": true
+        },
+        {
+            "entity": "Vision",
+            "values": [{
+                    "type": "synonyms",
+                    "value": "Ultron",
+                    "synonyms": []
+                },
+                {
+                    "type": "synonyms",
+                    "value": "Ultron's Android",
+                    "synonyms": []
+                },
+                {
+                    "type": "synonyms",
+                    "value": "vision",
+                    "synonyms": []
+                }
+            ],
+            "fuzzy_match": true
+        }
+    ],
+    "metadata": {
+        "api_version": {
+            "major_version": "v2",
+            "minor_version": "2018-11-08"
+        },
+        "from-sample": true
+    },
+    "dialog_nodes": [{
+            "type": "standard",
+            "title": "Anything else",
+            "output": {
+                "generic": [{
+                    "values": [{
+                            "text": "I didn't understand. You can try rephrasing."
+                        },
+                        {
+                            "text": "Can you reword your statement? I'm not understanding."
+                        },
+                        {
+                            "text": "I didn't get your meaning."
+                        }
+                    ],
+                    "response_type": "text",
+                    "selection_policy": "sequential"
+                }]
+            },
+            "conditions": "anything_else",
+            "dialog_node": "Anything else",
+            "previous_sibling": "node_1_1614414173568",
+            "disambiguation_opt_out": true
+        },
+        {
+            "type": "standard",
+            "output": {
+                "generic": [{
+                    "values": [{
+                        "text": "Iron Man is a fictional superhero appearing in American comic books published by Marvel Comics. The character was co-created by writer and editor Stan Lee, developed by scripter Larry Lieber, and designed by artists Don Heck and Jack Kirby. The character made his first appearance in Tales of Suspense, and received his own title in Iron Man. Also in 1963, the character founded the Avengers.A wealthy American business magnate, playboy, philanthropist, inventor and ingenious scientist, Anthony Edward Tony Stark suffers a severe chest injury during a kidnapping. When his captors attempt to force him to build a weapon of mass destruction, he instead creates a mechanized suit of armor to save his life and escape captivity. Later, Stark develops his suit, adding weapons and other technological devices he designed through his company, Stark Industries. He uses the suit and successive versions to protect the world as Iron Man. Although at first concealing his true identity, Stark eventually publicly reveals himself to be Iron Man."
+                    }],
+                    "response_type": "text",
+                    "selection_policy": "sequential"
+                }]
+            },
+            "conditions": "@Iron_Man",
+            "dialog_node": "node_10_1614259567949",
+            "previous_sibling": "node_6_1614254259296"
+        },
+        {
+            "type": "standard",
+            "metadata": {
+                "_customization": {
+                    "mcr": true
+                }
+            },
+            "conditions": "@Hulk",
+            "dialog_node": "node_10_1614259905279",
+            "previous_sibling": "node_2_1614259907926"
+        },
+        {
+            "type": "standard",
+            "output": {
+                "generic": [{
+                    "values": [{
+                        "text": "Leaves the team during Captain America: Civil War;\nRejoins during Avengers: Infinity War"
+                    }],
+                    "response_type": "text",
+                    "selection_policy": "sequential"
+                }]
+            },
+            "conditions": "@Captain_America && @movies",
+            "dialog_node": "node_10_1614414199381",
+            "previous_sibling": "node_4_1614414201778"
+        },
+        {
+            "type": "standard",
+            "output": {
+                "generic": [{
+                    "values": [{
+                        "text": "Hulk (also known as The Hulk) is an American superhero based on the Marvel Comics character. Eric Bana stars as Bruce Banner/Hulk. The film explores the origins of Bruce Banner. After a lab accident involving gamma radiation, he finds himself able to turn into a giant green-skinned creature whenever emotionally provoked or stressed. The United States military pursues him, and he comes into conflict with his biological father, who has a dark plan for his son."
+                    }],
+                    "response_type": "text",
+                    "selection_policy": "sequential"
+                }]
+            },
+            "conditions": "#Hi && @Hulk",
+            "dialog_node": "node_10_1614416005828",
+            "previous_sibling": "node_9_1614416008295"
+        },
+        {
+            "type": "standard",
+            "output": {
+                "generic": [{
+                    "values": [{
+                        "text": "Paul William Bettany (born 27 May 1971) is a British-American actor. He is best known for voicing J.A.R.V.I.S. and playing Vision in the Marvel Cinematic Universe films Iron Man (2008), Iron Man 2 (2010), The Avengers (2012), Iron Man 3 (2013), Avengers: Age of Ultron (2015), Captain America: Civil War (2016), and Avengers: Infinity War (2018), as well as the miniseries WandaVision (2021)."
+                    }],
+                    "response_type": "text",
+                    "selection_policy": "sequential"
+                }]
+            },
+            "conditions": "@Paul_Bettany",
+            "dialog_node": "node_10_1614417320677",
+            "previous_sibling": "node_8_1614417322694"
+        },
+        {
+            "type": "standard",
+            "metadata": {
+                "_customization": {
+                    "mcr": true
+                }
+            },
+            "conditions": "@Black_Widow",
+            "dialog_node": "node_1_1614259917546",
+            "previous_sibling": "node_1_1614259920862"
+        },
+        {
+            "type": "standard",
+            "metadata": {
+                "_customization": {
+                    "mcr": true
+                }
+            },
+            "conditions": "@Black_Panther",
+            "dialog_node": "node_1_1614259920862",
+            "previous_sibling": "node_10_1614259567949"
+        },
+        {
+            "type": "standard",
+            "metadata": {
+                "_customization": {
+                    "mcr": true
+                }
+            },
+            "conditions": "@Vision",
+            "dialog_node": "node_1_1614413246575",
+            "previous_sibling": "node_9_1614413194005"
+        },
+        {
+            "type": "standard",
+            "output": {
+                "generic": [{
+                    "values": [{
+                        "text": "Dies during Avengers: Infinity War"
+                    }],
+                    "response_type": "text",
+                    "selection_policy": "sequential"
+                }]
+            },
+            "conditions": "@Vision && @movies",
+            "dialog_node": "node_1_1614414173568",
+            "previous_sibling": "node_2_1614414177670"
+        },
+        {
+            "type": "standard",
+            "output": {
+                "generic": [{
+                    "values": [{
+                        "text": "Leaves the team during Captain America: Civil War;\nRejoins during Avengers: Endgame"
+                    }],
+                    "response_type": "text",
+                    "selection_policy": "sequential"
+                }]
+            },
+            "conditions": "@Hawk_Eye && @movies",
+            "dialog_node": "node_1_1614414190978",
+            "previous_sibling": "node_1_1614414193634"
+        },
+        {
+            "type": "standard",
+            "output": {
+                "generic": [{
+                    "values": [{
+                        "text": "Joins during Avengers: Infinity War, is \"killed\" by the snap, and is later \"revived\" during Avengers: Endgame"
+                    }],
+                    "response_type": "text",
+                    "selection_policy": "sequential"
+                }]
+            },
+            "conditions": "@Dr_Strange && @movies",
+            "dialog_node": "node_1_1614414193634",
+            "previous_sibling": "node_9_1614414196594"
+        },
+        {
+            "type": "standard",
+            "output": {
+                "generic": [{
+                    "values": [{
+                        "text": "Jeremy Lee Renner"
+                    }],
+                    "response_type": "text",
+                    "selection_policy": "sequential"
+                }]
+            },
+            "conditions": "@Hawk_Eye && @Portrayed_by",
+            "dialog_node": "node_1_1614414225560",
+            "previous_sibling": "node_9_1614414227877"
+        },
+        {
+            "type": "standard",
+            "output": {
+                "generic": [{
+                    "values": [{
+                        "text": "The Vision is a fictional superhero appearing in Marvel's Avengers. He is an android created by the villainous robot Ultron to eliminate the Avengers, though he quickly turned on his creator to fight as an Avenger for the forces of good. It was created by Roy Thomas and artist John Busceman."
+                    }],
+                    "response_type": "text",
+                    "selection_policy": "sequential"
+                }]
+            },
+            "conditions": "#Hi && @Vision",
+            "dialog_node": "node_1_1614415992528",
+            "previous_sibling": "node_9_1614415995359"
+        },
+        {
+            "type": "standard",
+            "output": {
+                "generic": [{
+                    "values": [{
+                        "text": "Jeremy Lee Renner (born January 7, 1971) is an American actor and singer. He began his career by appearing in independent films such as Dahmer (2002) and Neo Ned (2005). Renner earned supporting roles in bigger films, such as S.W.A.T. (2003) and 28 Weeks Later (2007). Renner was nominated for the Academy Award for Best Actor for his performance in The Hurt Locker (2008) and for the Academy Award for Best Supporting Actor for his performance in The Town (2010). His films have grossed over $3.5 billion in North America and over $9.8 billion worldwide, making him one of the highest-grossing box-office stars of all time ."
+                    }],
+                    "response_type": "text",
+                    "selection_policy": "sequential"
+                }]
+            },
+            "conditions": "@Jeremy_Renner",
+            "dialog_node": "node_1_1614417324702",
+            "previous_sibling": "node_5_1614417326698"
+        },
+        {
+            "type": "standard",
+            "output": {
+                "generic": [{
+                    "values": [{
+                        "text": "Christopher Hemsworth (born 11 August 1983) is an Australian actor. He first rose to prominence in Australia playing Kim Hyde in the Australian television series Home and Away (2004–07) before beginning a film career in Hollywood. Hemsworth is best known for playing Thor in eight Marvel Cinematic Universe films, beginning with Thor (2011) and appearing most recently in Avengers: Endgame (2019), which established him among the world's highest-paid actors."
+                    }],
+                    "response_type": "text",
+                    "selection_policy": "sequential"
+                }]
+            },
+            "conditions": "@Christopher_Hemsworth",
+            "dialog_node": "node_1_1614417334038",
+            "previous_sibling": "node_2_1614417302960"
+        },
+        {
+            "type": "standard",
+            "metadata": {
+                "_customization": {
+                    "mcr": true
+                }
+            },
+            "conditions": "@Scarlett_Witch",
+            "dialog_node": "node_2_1614259884910",
+            "previous_sibling": "node_3_1614686986727"
+        },
+        {
+            "type": "standard",
+            "metadata": {
+                "_customization": {
+                    "mcr": true
+                }
+            },
+            "conditions": "@Hawk_Eye",
+            "dialog_node": "node_2_1614259907926",
+            "previous_sibling": "node_7_1614259910531"
+        },
+        {
+            "type": "standard",
+            "metadata": {
+                "_customization": {
+                    "mcr": true
+                }
+            },
+            "conditions": "@Captain_Marvel",
+            "dialog_node": "node_2_1614259912842",
+            "previous_sibling": "node_7_1614259915082"
+        },
+        {
+            "type": "standard",
+            "output": {
+                "generic": [{
+                    "values": [{
+                        "text": "T'Challa\n(a.k.a. Luke Charles)"
+                    }],
+                    "response_type": "text",
+                    "selection_policy": "sequential"
+                }]
+            },
+            "conditions": "@Black_Panther && @Realname",
+            "dialog_node": "node_2_1614414169884",
+            "previous_sibling": "node_6_1614417306737"
+        },
+        {
+            "type": "standard",
+            "output": {
+                "generic": [{
+                    "values": [{
+                        "text": "Leaves the team in Avengers: Endgame and joins the Guardians of the Galaxy"
+                    }],
+                    "response_type": "text",
+                    "selection_policy": "sequential"
+                }]
+            },
+            "conditions": "@Thor && @movies",
+            "dialog_node": "node_2_1614414177670",
+            "previous_sibling": "node_7_1614414180271"
+        },
+        {
+            "type": "standard",
+            "output": {
+                "generic": [{
+                    "values": [{
+                        "text": "Joins Team Iron Man;\nBecomes an official Avenger during Avengers: Infinity War, is later \"killed\" due to the snap, and is \"revived\" during Avengers: Endgame"
+                    }],
+                    "response_type": "text",
+                    "selection_policy": "sequential"
+                }]
+            },
+            "conditions": "@Black_Panther && @movies",
+            "dialog_node": "node_2_1614414207933",
+            "previous_sibling": "node_3_1614414210460"
+        },
+        {
+            "type": "standard",
+            "output": {
+                "generic": [{
+                    "values": [{
+                        "text": "Brianne Sidonie Desaulniers"
+                    }],
+                    "response_type": "text",
+                    "selection_policy": "sequential"
+                }]
+            },
+            "conditions": "@Captain_Marvel && @Portrayed_by",
+            "dialog_node": "node_2_1614414230099",
+            "previous_sibling": "node_2_1614414232309"
+        },
+        {
+            "type": "standard",
+            "output": {
+                "generic": [{
+                    "values": [{
+                        "text": "Christopher Robert Evans"
+                    }],
+                    "response_type": "text",
+                    "selection_policy": "sequential"
+                }]
+            },
+            "conditions": "@Captain_America && @Portrayed_by",
+            "dialog_node": "node_2_1614414232309",
+            "previous_sibling": "node_2_1614414234319"
+        },
+        {
+            "type": "standard",
+            "output": {
+                "generic": [{
+                    "values": [{
+                        "text": "Scarlett Ingrid Johansson "
+                    }],
+                    "response_type": "text",
+                    "selection_policy": "sequential"
+                }]
+            },
+            "conditions": "@Black_Widow && @Portrayed_by",
+            "dialog_node": "node_2_1614414234319",
+            "previous_sibling": "node_4_1614414236426"
+        },
+        {
+            "type": "standard",
+            "output": {
+                "generic": [{
+                    "values": [{
+                        "text": "Clinton Francis Barton"
+                    }],
+                    "response_type": "text",
+                    "selection_policy": "sequential"
+                }]
+            },
+            "conditions": "@Hawk_Eye && @Realname",
+            "dialog_node": "node_2_1614414252357",
+            "previous_sibling": "node_2_1614414254490"
+        },
+        {
+            "type": "standard",
+            "output": {
+                "generic": [{
+                    "values": [{
+                        "text": "Stephen Vincent Strange"
+                    }],
+                    "response_type": "text",
+                    "selection_policy": "sequential"
+                }]
+            },
+            "conditions": "@Dr_Strange && @Realname",
+            "dialog_node": "node_2_1614414254490",
+            "previous_sibling": "node_6_1614414256823"
+        },
+        {
+            "type": "standard",
+            "output": {
+                "generic": [{
+                    "values": [{
+                        "text": "It is 1942, America has entered World War II, and sickly but determined Steve Rogers is frustrated at being rejected yet again for military service. Everything changes when Dr. Erskine recruits him for the secret Project Rebirth. Proving his extraordinary courage, wits and conscience, Rogers undergoes the experiment and his weak body is suddenly enhanced into the maximum human potential. When Dr. Erskine is then immediately assassinated by an agent of Nazi Germany's secret HYDRA research department, Rogers is left as a unique man who is initially misused as a propaganda mascot; however, when his comrades need him, Rogers goes on a successful adventure that truly makes him Captain America, and his war against Schmidt begins."
+                    }],
+                    "response_type": "text",
+                    "selection_policy": "sequential"
+                }]
+            },
+            "conditions": "#Hi && @Captain_America",
+            "dialog_node": "node_2_1614416015696",
+            "previous_sibling": "node_7_1614416018936"
+        },
+        {
+            "type": "standard",
+            "output": {
+                "generic": [{
+                    "values": [{
+                        "text": "Robert John Downey Jr. (born April 4, 1965) is an American actor and producer. His career has been characterized by critical and popular success in his youth, followed by a period of substance abuse and legal troubles, before a resurgence of commercial success in middle age. In 2008, Downey was named by Time magazine among the 100 most influential people in the world, and from 2013 to 2015, he was listed by Forbes as Hollywood's highest-paid actor.His films have grossed over $14.4 billion worldwide, making Downey the sixth-highest-grossing box office star of all-time."
+                    }],
+                    "response_type": "text",
+                    "selection_policy": "sequential"
+                }]
+            },
+            "conditions": "@Robert_Downey_Jr",
+            "dialog_node": "node_2_1614417302960",
+            "previous_sibling": "node_1_1614415992528"
+        },
+        {
+            "type": "standard",
+            "output": {
+                "generic": [{
+                    "values": [{
+                        "text": "Paul William Bettany "
+                    }],
+                    "response_type": "text",
+                    "selection_policy": "sequential"
+                }]
+            },
+            "conditions": "@Vision && @Portrayed_by",
+            "dialog_node": "node_3_1614414210460",
+            "previous_sibling": "node_7_1614414212533"
+        },
+        {
+            "type": "standard",
+            "output": {
+                "generic": [{
+                    "values": [{
+                        "text": "Anthony Edward \"Tony\" Stark"
+                    }],
+                    "response_type": "text",
+                    "selection_policy": "sequential"
+                }]
+            },
+            "conditions": "@Iron_Man && @Realname",
+            "dialog_node": "node_3_1614414248250",
+            "previous_sibling": "node_3_1614414250289"
+        },
+        {
+            "type": "standard",
+            "output": {
+                "generic": [{
+                    "values": [{
+                        "text": "Dr. Robert Bruce Banner"
+                    }],
+                    "response_type": "text",
+                    "selection_policy": "sequential"
+                }]
+            },
+            "conditions": "@Hulk && @Realname",
+            "dialog_node": "node_3_1614414250289",
+            "previous_sibling": "node_2_1614414252357"
+        },
+        {
+            "type": "standard",
+            "output": {
+                "generic": [{
+                    "values": [{
+                        "text": "Wanda Maximoff is a native of Sokovia who grew up with her fraternal twin brother, Pietro. In an effort to help purge their country of strife, the twins joined HYDRA and agreed to undergo experiments with the Scepter under the supervision of Wolfgang von Strucker. The two received superpowers as a result, with Wanda attaining various abilities including telekinesis, telepathy, and reality manipulation. When HYDRA fell, the twins joined Ultron to get their revenge on Tony Stark over his weapons killing their family in a bombing, but eventually abandoned him when they discovered Ultron's true intentions to destroy Earth. Wanda and Pietro fought with the Avengers during the Battle of Sokovia to stop Ultron; Pietro was killed during the battle but Wanda survived, and shortly after Ultron's destruction, became a member of the Avengers."
+                    }],
+                    "response_type": "text",
+                    "selection_policy": "sequential"
+                }]
+            },
+            "conditions": "#Hi && @Scarlett_Witch",
+            "dialog_node": "node_3_1614416001027",
+            "previous_sibling": "node_7_1614416003660"
+        },
+        {
+            "type": "standard",
+            "output": {
+                "generic": [{
+                    "values": [{
+                        "text": "Stephen Vincent Strange M.D., Ph.D is a powerful sorcerer and Master of the Mystic Arts. Originally a brilliant, although arrogant, neurosurgeon, Strange got into a car accident which resulted with his hands becoming crippled. When all Western medicine failed him, Strange embarked on a journey that led him into Kamar-Taj where Strange had made the discovery of magic and alternate dimensions, being trained by the Ancient One. Though focused on healing his hands and returning into his career, Strange learned more of the mystic arts and helped the Masters prevent Kaecilius from merging the Earth with the Dark Dimension, but not before witnessing the Ancient One's death. Following the demise of their mentor, Strange became the protector of the New York Sanctum in New York as well as the Earth's protector from any new inter-dimensional threats."
+                    }],
+                    "response_type": "text",
+                    "selection_policy": "sequential"
+                }]
+            },
+            "conditions": "#Hi && @Dr_Strange",
+            "dialog_node": "node_3_1614416010865",
+            "previous_sibling": "node_9_1614416013153"
+        },
+        {
+            "type": "standard",
+            "title": "Jarvis",
+            "output": {
+                "generic": [{
+                    "values": [{
+                        "text": "J.A.R.V.I.S. is a fictional artificial intelligence that first appeared in the Marvel Cinematic Universe where he was voiced by Paul Bettany in Iron Man, Iron Man 2, The Avengers, Iron Man 3, and Avengers: Age of Ultron."
+                    }],
+                    "response_type": "text",
+                    "selection_policy": "sequential"
+                }]
+            },
+            "conditions": "@Jarvis",
+            "dialog_node": "node_3_1614686986727",
+            "previous_sibling": "node_4_1614259902450"
+        },
+        {
+            "type": "standard",
+            "metadata": {
+                "_customization": {
+                    "mcr": true
+                }
+            },
+            "conditions": "@Iron_Man",
+            "dialog_node": "node_4_1614259902450",
+            "previous_sibling": "node_10_1614259905279"
+        },
+        {
+            "type": "standard",
+            "output": {
+                "generic": [{
+                    "values": [{
+                        "text": "Dies during Avengers: Endgame"
+                    }],
+                    "response_type": "text",
+                    "selection_policy": "sequential"
+                }]
+            },
+            "conditions": "@Black_Widow && @movies",
+            "dialog_node": "node_4_1614414201778",
+            "previous_sibling": "node_2_1614414207933"
+        },
+        {
+            "type": "standard",
+            "output": {
+                "generic": [{
+                    "values": [{
+                        "text": "Chadwick Aaron Boseman"
+                    }],
+                    "response_type": "text",
+                    "selection_policy": "sequential"
+                }]
+            },
+            "conditions": "@Black_Panther && @Portrayed_by",
+            "dialog_node": "node_4_1614414236426",
+            "previous_sibling": "node_5_1614414238530"
+        },
+        {
+            "type": "standard",
+            "output": {
+                "generic": [{
+                    "values": [{
+                        "text": "In 2009, T'Chaka's son, Prince T'Challa, adopted the mantle of the Black Panther as his father retired from the role. T'Challa then designed his own Panther Habit, taking inspiration from his father's Habit. In the week following his appointment as Black Panther, T'Challa and Okoye were sent on a mission to save Wakandan hostages from Zanda, a Narobian terrorist, and Douglas Scott. During their confrontation with Zanda, T'Challa was shot in the shoulder with a Vibranium bullet, damaging it."
+                    }],
+                    "response_type": "text",
+                    "selection_policy": "sequential"
+                }]
+            },
+            "conditions": "#Hi && @Black_Panther",
+            "dialog_node": "node_4_1614415989093",
+            "previous_sibling": "node_1_1614413246575"
+        },
+        {
+            "type": "standard",
+            "output": {
+                "generic": [{
+                    "values": [{
+                        "text": "Christopher Robert Evans(born June 13, 1981) is an American actor, best known for his role as Captain America in the Marvel Cinematic Universe (MCU) series of films. Evans began his career with roles in television series. Following appearances in several teen films including 2001's Not Another Teen Movie, he gained attention for his portrayal of Marvel Comics character Human Torch in 2005's Fantastic Four, and its sequel Fantastic Four: Rise of the Silver Surfer (2007). Evans made further appearances in film adaptations of comic books and graphic novels: TMNT (2007), Scott Pilgrim vs. the World (2010), and Snowpiercer (2013)."
+                    }],
+                    "response_type": "text",
+                    "selection_policy": "sequential"
+                }]
+            },
+            "conditions": "@Chris_Evans",
+            "dialog_node": "node_4_1614417328837",
+            "previous_sibling": "node_7_1614417331381"
+        },
+        {
+            "type": "standard",
+            "metadata": {
+                "_customization": {
+                    "mcr": true
+                }
+            },
+            "conditions": "@order || #order",
+            "dialog_node": "node_4_1614431464667"
+        },
+        {
+            "type": "standard",
+            "output": {
+                "generic": [{
+                    "values": [{
+                        "text": "Robert Downey Jr."
+                    }],
+                    "response_type": "text",
+                    "selection_policy": "sequential"
+                }]
+            },
+            "conditions": "@Iron_Man && @Portrayed_by",
+            "dialog_node": "node_5_1614414220567",
+            "previous_sibling": "node_6_1614414222927"
+        },
+        {
+            "type": "standard",
+            "output": {
+                "generic": [{
+                    "values": [{
+                        "text": "Victor Shade (alias)"
+                    }],
+                    "response_type": "text",
+                    "selection_policy": "sequential"
+                }]
+            },
+            "conditions": "@Vision && @Realname",
+            "dialog_node": "node_5_1614414238530",
+            "previous_sibling": "node_5_1614414241209"
+        },
+        {
+            "type": "standard",
+            "output": {
+                "generic": [{
+                    "values": [{
+                        "text": "Thor Odinson"
+                    }],
+                    "response_type": "text",
+                    "selection_policy": "sequential"
+                }]
+            },
+            "conditions": "@Thor && @Realname",
+            "dialog_node": "node_5_1614414241209",
+            "previous_sibling": "node_5_1614414243558"
+        },
+        {
+            "type": "standard",
+            "output": {
+                "generic": [{
+                    "values": [{
+                        "text": "Peter Benjamin Parker"
+                    }],
+                    "response_type": "text",
+                    "selection_policy": "sequential"
+                }]
+            },
+            "conditions": "@Spider_Man && @Realname",
+            "dialog_node": "node_5_1614414243558",
+            "previous_sibling": "node_8_1614414245664"
+        },
+        {
+            "type": "standard",
+            "output": {
+                "generic": [{
+                    "values": [{
+                        "text": "Scarlett Ingrid Johansson ( born November 22, 1984) is an American actress and singer. She was the world's highest-paid actress in 2018 and 2019, and has featured multiple times on the Forbes Celebrity 100 list. Her films have grossed over $14.3 billion worldwide, making Johansson the ninth-highest-grossing box office star of all time. She is the recipient of several accolades, including a Tony Award for Best Featured Actress in a Play and a BAFTA Award for Best Actress in a Leading Role, as well as nominations for two Academy Awards and five Golden Globe Awards."
+                    }],
+                    "response_type": "text",
+                    "selection_policy": "sequential"
+                }]
+            },
+            "conditions": "@Scarlett_Johansson",
+            "dialog_node": "node_5_1614417326698",
+            "previous_sibling": "node_4_1614417328837"
+        },
+        {
+            "type": "standard",
+            "metadata": {
+                "_customization": {
+                    "mcr": true
+                }
+            },
+            "conditions": "@avengers",
+            "dialog_node": "node_6_1614254259296",
+            "previous_sibling": "Welcome"
+        },
+        {
+            "type": "standard",
+            "output": {
+                "generic": [{
+                    "values": [{
+                        "text": "Dies during Avengers: Endgame"
+                    }],
+                    "response_type": "text",
+                    "selection_policy": "sequential"
+                }]
+            },
+            "conditions": "@Iron_Man && @movies",
+            "dialog_node": "node_6_1614414185631",
+            "previous_sibling": "node_8_1614414188354"
+        },
+        {
+            "type": "standard",
+            "output": {
+                "generic": [{
+                    "values": [{
+                        "text": "Thomas Stanley Holland"
+                    }],
+                    "response_type": "text",
+                    "selection_policy": "sequential"
+                }]
+            },
+            "conditions": "@Spider_Man && @Portrayed_by",
+            "dialog_node": "node_6_1614414216160",
+            "previous_sibling": "node_9_1614414218373"
+        },
+        {
+            "type": "standard",
+            "output": {
+                "generic": [{
+                    "values": [{
+                        "text": "Mark Alan Ruffalo"
+                    }],
+                    "response_type": "text",
+                    "selection_policy": "sequential"
+                }]
+            },
+            "conditions": "@Hulk && @Portrayed_by",
+            "dialog_node": "node_6_1614414222927",
+            "previous_sibling": "node_1_1614414225560"
+        },
+        {
+            "type": "standard",
+            "output": {
+                "generic": [{
+                    "values": [{
+                        "text": "Mar-Vell\n(a.k.a. Walter Lawson)"
+                    }],
+                    "response_type": "text",
+                    "selection_policy": "sequential"
+                }]
+            },
+            "conditions": "@Captain_Marvel && @Realname",
+            "dialog_node": "node_6_1614414256823",
+            "previous_sibling": "node_8_1614414259238"
+        },
+        {
+            "type": "standard",
+            "output": {
+                "generic": [{
+                    "values": [{
+                        "text": "Natasha Alianovna Romanoff"
+                    }],
+                    "response_type": "text",
+                    "selection_policy": "sequential"
+                }]
+            },
+            "conditions": "@Black_Widow && @Realname",
+            "dialog_node": "node_6_1614414261659",
+            "previous_sibling": "node_2_1614414169884"
+        },
+        {
+            "type": "standard",
+            "output": {
+                "generic": [{
+                    "values": [{
+                        "text": "Brianne Sidonie Desaulniers (born October 1, 1989), known professionally as Brie Larson, is an American actress and filmmaker. Noted for her supporting roles in comedies as a teenager, she has since expanded to leading roles in both independent films and big-budget blockbusters. Her accolades include an Academy Award, a Primetime Emmy Award, and a Golden Globe. Time magazine named her one of the 100 most influential people in the world in 2019."
+                    }],
+                    "response_type": "text",
+                    "selection_policy": "sequential"
+                }]
+            },
+            "conditions": "@Brie_Larson",
+            "dialog_node": "node_6_1614417306737",
+            "previous_sibling": "node_7_1614417309698"
+        },
+        {
+            "type": "standard",
+            "metadata": {
+                "_customization": {
+                    "mcr": true
+                }
+            },
+            "conditions": "@The_avengers",
+            "dialog_node": "node_7_1614259896063",
+            "previous_sibling": "node_9_1614259892290"
+        },
+        {
+            "type": "standard",
+            "output": {
+                "generic": [{
+                    "values": [{
+                        "text": "Stephen Vincent Strange M.D., Ph.D is a powerful sorcerer and Master of the Mystic Arts. Originally a brilliant, although arrogant, neurosurgeon, Strange got into a car accident which resulted with his hands becoming crippled. When all Western medicine failed him, Strange embarked on a journey that led him into Kamar-Taj where Strange had made the discovery of magic and alternate dimensions, being trained by the Ancient One. Though focused on healing his hands and returning into his career, Strange learned more of the mystic arts and helped the Masters prevent Kaecilius from merging the Earth with the Dark Dimension, but not before witnessing the Ancient One's death. Following the demise of their mentor, Strange became the protector of the New York Sanctum in New York as well as the Earth's protector from any new inter-dimensional threats."
+                    }],
+                    "response_type": "text",
+                    "selection_policy": "sequential"
+                }]
+            },
+            "conditions": "@Dr_Strange",
+            "dialog_node": "node_7_1614259910531",
+            "previous_sibling": "node_2_1614259912842"
+        },
+        {
+            "type": "standard",
+            "metadata": {
+                "_customization": {
+                    "mcr": true
+                }
+            },
+            "conditions": "@Captain_America",
+            "dialog_node": "node_7_1614259915082",
+            "previous_sibling": "node_1_1614259917546"
+        },
+        {
+            "type": "standard",
+            "output": {
+                "generic": [{
+                    "values": [{
+                        "text": "Joins Team Iron Man;\nBecomes an official Avenger during Avengers: Infinity War, is later \"killed\" due to the snap, and is \"revived\" during Avengers: Endgame"
+                    }],
+                    "response_type": "text",
+                    "selection_policy": "sequential"
+                }]
+            },
+            "conditions": "@Spider_Man && @movies",
+            "dialog_node": "node_7_1614414180271",
+            "previous_sibling": "node_9_1614414182896"
+        },
+        {
+            "type": "standard",
+            "output": {
+                "generic": [{
+                    "values": [{
+                        "text": "Christopher Hemsworth "
+                    }],
+                    "response_type": "text",
+                    "selection_policy": "sequential"
+                }]
+            },
+            "conditions": "@Thor && @Portrayed_by",
+            "dialog_node": "node_7_1614414212533",
+            "previous_sibling": "node_6_1614414216160"
+        },
+        {
+            "type": "standard",
+            "output": {
+                "generic": [{
+                    "values": [{
+                        "text": "Based on Marvel Comics' superhero character, this is a story of Peter Parker who is a nerdy high-schooler. He was orphaned as a child, bullied by jocks, and can't confess his crush for his stunning neighborhood girl Mary Jane Watson. To say his life is miserable is an understatement. But one day while on an excursion to a laboratory a runaway radioactive spider bites him... and his life changes in a way no one could have imagined. Peter acquires a muscle-bound physique, clear vision, ability to cling to surfaces and crawl over walls, shooting webs from his wrist ... but the fun isn't going to last. An eccentric millionaire Norman Osborn administers a performance enhancing drug on himself and his maniacal alter ego Green Goblin emerges. Now Peter Parker has to become Spider-Man and take Green Goblin to the task... or else Goblin will kill him. They come face to face and the war begins in which only one of them will survive at the end."
+                    }],
+                    "response_type": "text",
+                    "selection_policy": "sequential"
+                }]
+            },
+            "conditions": "#Hi && @Spider_Man",
+            "dialog_node": "node_7_1614415998265",
+            "previous_sibling": "node_3_1614416001027"
+        },
+        {
+            "type": "standard",
+            "output": {
+                "generic": [{
+                    "values": [{
+                        "text": "Iron Man is a fictional superhero appearing in American comic books published by Marvel Comics. The character was co-created by writer and editor Stan Lee, developed by scripter Larry Lieber, and designed by artists Don Heck and Jack Kirby. The character made his first appearance in Tales of Suspense, and received his own title in Iron Man. Also in 1963, the character founded the Avengers.A wealthy American business magnate, playboy, philanthropist, inventor and ingenious scientist, Anthony Edward Tony Stark suffers a severe chest injury during a kidnapping. When his captors attempt to force him to build a weapon of mass destruction, he instead creates a mechanized suit of armor to save his life and escape captivity. Later, Stark develops his suit, adding weapons and other technological devices he designed through his company, Stark Industries. He uses the suit and successive versions to protect the world as Iron Man. Although at first concealing his true identity, Stark eventually publicly reveals himself to be Iron Man."
+                    }],
+                    "response_type": "text",
+                    "selection_policy": "sequential"
+                }]
+            },
+            "conditions": "#Hi && @Iron_Man",
+            "dialog_node": "node_7_1614416003660",
+            "previous_sibling": "node_10_1614416005828"
+        },
+        {
+            "type": "standard",
+            "output": {
+                "generic": [{
+                    "values": [{
+                        "text": "At birth the Black Widow (aka Natasha Romanova) is given to the KGB, which grooms her to become its ultimate operative. When the U.S.S.R. breaks up, the government tries to kill her as the action moves to present-day New York, where she is a freelance operative."
+                    }],
+                    "response_type": "text",
+                    "selection_policy": "sequential"
+                }]
+            },
+            "conditions": "#Hi && @Black_Widow",
+            "dialog_node": "node_7_1614416018936",
+            "previous_sibling": "node_4_1614415989093"
+        },
+        {
+            "type": "standard",
+            "output": {
+                "generic": [{
+                    "values": [{
+                        "text": "Benedict Timothy Carlton Cumberbatch CBE (born 19 July 1976) is an English actor. A graduate of the Victoria University of Manchester, he continued his training at the London Academy of Music and Dramatic Art, obtaining a Master of Arts in Classical Acting. He first performed at the Open Air Theatre, Regent's Park in Shakespearean productions and made his West End debut in Richard Eyre's revival of Hedda Gabler in 2005. Since then, he has starred in the Royal National Theatre productions After the Dance (2010) and Frankenstein (2011). In 2015, he played the title role in Hamlet at the Barbican Theatre."
+                    }],
+                    "response_type": "text",
+                    "selection_policy": "sequential"
+                }]
+            },
+            "conditions": "@Benedict_Cumberbatch",
+            "dialog_node": "node_7_1614417309698",
+            "previous_sibling": "node_9_1614417313679"
+        },
+        {
+            "type": "standard",
+            "output": {
+                "generic": [{
+                    "values": [{
+                        "text": "Mark Alan Ruffalo ( born November 22, 1967) is an American actor and producer. He began acting in the early 1990s and first gained recognition for his work in Kenneth Lonergan's play This Is Our Youth (1998) and drama film You Can Count On Me (2000). He went on to star in the romantic comedies 13 Going on 30 (2004) and Just like Heaven (2005) and the thrillers Zodiac (2007) and Shutter Island (2010); and received a Tony Award nomination for his supporting role in the Broadway revival of Awake and Sing! in 2006. Ruffalo gained international recognition for playing Bruce Banner / Hulk in the Marvel Cinematic Universe superhero films The Avengers (2012), Avengers: Age of Ultron (2015), Thor: Ragnarok (2017), Avengers: Infinity War (2018), and Avengers: Endgame (2019). Also in 2019, Ruffalo starred in and co-produced Dark Waters."
+                    }],
+                    "response_type": "text",
+                    "selection_policy": "sequential"
+                }]
+            },
+            "conditions": "@Mark_Ruffalo",
+            "dialog_node": "node_7_1614417331381",
+            "previous_sibling": "node_1_1614417334038"
+        },
+        {
+            "type": "standard",
+            "output": {
+                "generic": [{
+                    "values": [{
+                        "text": "Supposedly retires from the front line during Avengers: Endgame"
+                    }],
+                    "response_type": "text",
+                    "selection_policy": "sequential"
+                }]
+            },
+            "conditions": "@Hulk && @movies",
+            "dialog_node": "node_8_1614414188354",
+            "previous_sibling": "node_1_1614414190978"
+        },
+        {
+            "type": "standard",
+            "output": {
+                "generic": [{
+                    "values": [{
+                        "text": "Wanda Maximoff"
+                    }],
+                    "response_type": "text",
+                    "selection_policy": "sequential"
+                }]
+            },
+            "conditions": "@Scarlett_Witch && @Realname",
+            "dialog_node": "node_8_1614414245664",
+            "previous_sibling": "node_3_1614414248250"
+        },
+        {
+            "type": "standard",
+            "output": {
+                "generic": [{
+                    "values": [{
+                        "text": "Steven Grant \"Steve\" Rogers"
+                    }],
+                    "response_type": "text",
+                    "selection_policy": "sequential"
+                }]
+            },
+            "conditions": "@Captain_America && @Realname",
+            "dialog_node": "node_8_1614414259238",
+            "previous_sibling": "node_6_1614414261659"
+        },
+        {
+            "type": "standard",
+            "output": {
+                "generic": [{
+                    "values": [{
+                        "text": "Chadwick Aaron Boseman ( November 29, 1976– August 28, 2020) was an American actor and playwright. After studying directing at Howard University, he became prominent in theater, winning a Drama League Directing Fellowship and an acting AUDELCO, and being nominated for a Jeff Award as a playwright for Deep Azure. Transitioning to the screen, he landed his first major role as a series regular on Persons Unknown in 2010, and his breakthrough performance came in 2013 as baseball player Jackie Robinson in the biographical film 42. He continued to portray historical figures, starring in Get on Up (2014) as singer James Brown and Marshall (2017) as Supreme Court Justice Thurgood Marshall."
+                    }],
+                    "response_type": "text",
+                    "selection_policy": "sequential"
+                }]
+            },
+            "conditions": "@Chadwick_Boseman",
+            "dialog_node": "node_8_1614417318291",
+            "previous_sibling": "node_10_1614417320677"
+        },
+        {
+            "type": "standard",
+            "output": {
+                "generic": [{
+                    "values": [{
+                        "text": "Elizabeth Chase Olsen (born February 16, 1989) is an American actress. Her breakthrough came in 2011 when she starred in the independent thriller drama Martha Marcy May Marlene, for which she was nominated for the Critics' Choice Movie Award for Best Actress and Independent Spirit Award for Best Female Lead, among other awards. She subsequently starred in the films Silent House (2011), Liberal Arts (2012), Oldboy (2013), Godzilla (2014), I Saw the Light (2015), Wind River (2017), and Ingrid Goes West (2017). In television, she executive produced and starred in the Facebook Watch drama series Sorry for Your Loss (2018–2019), for which she was nominated for a Critics' Choice Television Award."
+                    }],
+                    "response_type": "text",
+                    "selection_policy": "sequential"
+                }]
+            },
+            "conditions": "@Elizabeth_Olsen",
+            "dialog_node": "node_8_1614417322694",
+            "previous_sibling": "node_1_1614417324702"
+        },
+        {
+            "type": "standard",
+            "metadata": {
+                "_customization": {
+                    "mcr": true
+                }
+            },
+            "conditions": "@Spider_Man",
+            "dialog_node": "node_9_1614259892290",
+            "previous_sibling": "node_2_1614259884910"
+        },
+        {
+            "type": "standard",
+            "metadata": {
+                "_customization": {
+                    "mcr": true
+                }
+            },
+            "conditions": "@Thor",
+            "dialog_node": "node_9_1614413194005",
+            "previous_sibling": "node_7_1614259896063"
+        },
+        {
+            "type": "standard",
+            "output": {
+                "generic": [{
+                    "values": [{
+                        "text": "Leaves the team during Captain America: Civil War;\nRejoins during Avengers: Infinity War, is later \"killed\" due to the snap, and is later \"revived\" during Avengers: Endgame"
+                    }],
+                    "response_type": "text",
+                    "selection_policy": "sequential"
+                }]
+            },
+            "conditions": "@Scarlett_Witch && @movies",
+            "dialog_node": "node_9_1614414182896",
+            "previous_sibling": "node_6_1614414185631"
+        },
+        {
+            "type": "standard",
+            "output": {
+                "generic": [{
+                    "values": [{
+                        "text": "She is called back to Earth by Nick Fury in Avengers: Infinity War shortly before he is \"killed\" by the snap, she later arrives prior to the events of Avengers: Endgame and joins the Avengers."
+                    }],
+                    "response_type": "text",
+                    "selection_policy": "sequential"
+                }]
+            },
+            "conditions": "@Captain_Marvel && @movies",
+            "dialog_node": "node_9_1614414196594",
+            "previous_sibling": "node_10_1614414199381"
+        },
+        {
+            "type": "standard",
+            "output": {
+                "generic": [{
+                    "values": [{
+                        "text": "Elizabeth Chase Olsen"
+                    }],
+                    "response_type": "text",
+                    "selection_policy": "sequential"
+                }]
+            },
+            "conditions": "@Scarlett_Witch && @Portrayed_by",
+            "dialog_node": "node_9_1614414218373",
+            "previous_sibling": "node_5_1614414220567"
+        },
+        {
+            "type": "standard",
+            "output": {
+                "generic": [{
+                    "values": [{
+                        "text": "Benedict Timothy Carlton Cumberbatch CBE"
+                    }],
+                    "response_type": "text",
+                    "selection_policy": "sequential"
+                }]
+            },
+            "conditions": "@Dr_Strange && @Portrayed_by",
+            "dialog_node": "node_9_1614414227877",
+            "previous_sibling": "node_2_1614414230099"
+        },
+        {
+            "type": "standard",
+            "output": {
+                "generic": [{
+                    "values": [{
+                        "text": "Thor Odinson is a fictional character portrayed by Chris Hemsworth in the Marvel Cinematic Universe (MCU) film franchise, based on the Marvel Comics character of the same name. In the films, Thor is one of the most powerful of the Asgardians, an alien civilization with long ties to Earth, who are therefore considered on Earth to be gods. As of 2021, the character is a central figure of the Marvel Cinematic Universe, having appeared in eight films of the series."
+                    }],
+                    "response_type": "text",
+                    "selection_policy": "sequential"
+                }]
+            },
+            "conditions": "#Hi && @Thor",
+            "dialog_node": "node_9_1614415995359",
+            "previous_sibling": "node_7_1614415998265"
+        },
+        {
+            "type": "standard",
+            "output": {
+                "generic": [{
+                    "values": [{
+                        "text": "Hawkeye (Clinton Francis Barton) is a fictional superhero appearing in Marvel's Avengers series. Created by writer Stan Lee and artist Don Heck, the character first appeared as a villain in Tales of Suspense and later joined the Avengers in The Avengers. He has been a prominent member of the team ever since"
+                    }],
+                    "response_type": "text",
+                    "selection_policy": "sequential"
+                }]
+            },
+            "conditions": "#Hi && @Hawk_Eye",
+            "dialog_node": "node_9_1614416008295",
+            "previous_sibling": "node_3_1614416010865"
+        },
+        {
+            "type": "standard",
+            "output": {
+                "generic": [{
+                    "values": [{
+                        "text": "In 1995, Danvers becomes Captain Marvel after Earth is caught in the center of a galactic conflict between two alien civilizations.Amidst a mission, Vers, a Kree warrior, gets separated from her team and is stranded on Earth. However, her life takes an unusual turn after she teams up with Fury, a S.H.I.E.L.D. agent."
+                    }],
+                    "response_type": "text",
+                    "selection_policy": "sequential"
+                }]
+            },
+            "conditions": "#Hi && @Captain_Marvel",
+            "dialog_node": "node_9_1614416013153",
+            "previous_sibling": "node_2_1614416015696"
+        },
+        {
+            "type": "standard",
+            "output": {
+                "generic": [{
+                    "values": [{
+                        "text": "Thomas Stanley Holland (born 1 June 1996) is an English actor. A graduate of the BRIT School in London, he began his acting career on stage in the title role of Billy Elliot the Musical in the West End from 2008 to 2010. He gained further recognition for his starring role in the disaster film The Impossible (2012), receiving the London Film Critics Circle Award for Young British Performer of the Year."
+                    }],
+                    "response_type": "text",
+                    "selection_policy": "sequential"
+                }]
+            },
+            "conditions": "@Tom_Holland",
+            "dialog_node": "node_9_1614417313679",
+            "previous_sibling": "node_8_1614417318291"
+        },
+        {
+            "type": "response_condition",
+            "output": {
+                "generic": [{
+                    "values": [{
+                        "text": "At birth the Black Widow (aka Natasha Romanova) is given to the KGB, which grooms her to become its ultimate operative. When the U.S.S.R. breaks up, the government tries to kill her as the action moves to present-day New York, where she is a freelance operative."
+                    }],
+                    "response_type": "text",
+                    "selection_policy": "sequential"
+                }]
+            },
+            "parent": "node_1_1614259917546",
+            "dialog_node": "response_10_1614260162478"
+        },
+        {
+            "type": "response_condition",
+            "output": {
+                "generic": [{
+                    "values": [{
+                        "text": "Hawkeye (Clinton Francis Barton) is a fictional superhero appearing in Marvel's Avengers series. Created by writer Stan Lee and artist Don Heck, the character first appeared as a villain in Tales of Suspense and later joined the Avengers in The Avengers. He has been a prominent member of the team ever since."
+                    }],
+                    "response_type": "text",
+                    "selection_policy": "sequential"
+                }]
+            },
+            "parent": "node_2_1614259907926",
+            "dialog_node": "response_10_1614412578103"
+        },
+        {
+            "type": "response_condition",
+            "output": {
+                "generic": [{
+                    "values": [{
+                        "text": "Captain America: The First Avenger (takes place during WWII) Captain Marvel (takes place in 1995) Iron Man (takes place in 2010) Iron Man 2 (takes place after Iron Man) The Incredible Hulk (time unspecified, pre-Avengers) Thor (takes place six months before Avengers) The Avengers (takes place in 2012) Iron Man 3 (takes place six months after The Avengers) Thor: Dark World (post-Avengers, pre-Ultron) Captain America: Winter Soldier (post-Avengers, pre-Ultron) Guardians of the Galaxy (sometime in 2014) Guardians of the Galaxy Vol. 2 (after Guardians) Avengers: Age of Ultron (takes place in 2015) Ant-Man (takes place in 2015) Captain America: Civil War (post-Ultron, pre-Infinity War) Spider-Man: Homecoming (post-Civil War, pre-Infinity War) Doctor Strange (takes place in 2016) Black Panther (takes place in 2017) Thor: Ragnarok (post-Ultron, pre-Infinity War) Avengers: Infinity War (takes place in 2017) Ant-Man and The Wasp (ambiguous, but fits nicely between IW and Endgame) Avengers: Endgame (starts in 2017, finishes in 2022) Spider-Man: Far From Home (eight months post-Endgame)"
+                    }],
+                    "response_type": "text",
+                    "selection_policy": "sequential"
+                }]
+            },
+            "parent": "node_4_1614431464667",
+            "dialog_node": "response_1_1614431524332"
+        },
+        {
+            "type": "response_condition",
+            "output": {
+                "generic": [{
+                    "values": [{
+                        "text": "Based on Marvel Comics' superhero character, this is a story of Peter Parker who is a nerdy high-schooler. He was orphaned as a child, bullied by jocks, and can't confess his crush for his stunning neighborhood girl Mary Jane Watson. To say his life is miserable is an understatement. But one day while on an excursion to a laboratory a runaway radioactive spider bites him... and his life changes in a way no one could have imagined. Peter acquires a muscle-bound physique, clear vision, ability to cling to surfaces and crawl over walls, shooting webs from his wrist ... but the fun isn't going to last. An eccentric millionaire Norman Osborn administers a performance enhancing drug on himself and his maniacal alter ego Green Goblin emerges. Now Peter Parker has to become Spider-Man and take Green Goblin to the task... or else Goblin will kill him. They come face to face and the war begins in which only one of them will survive at the end."
+                    }],
+                    "response_type": "text",
+                    "selection_policy": "sequential"
+                }]
+            },
+            "parent": "node_9_1614259892290",
+            "dialog_node": "response_2_1614412783224"
+        },
+        {
+            "type": "response_condition",
+            "output": {
+                "generic": [{
+                    "values": [{
+                        "text": "Hulk (also known as The Hulk) is an American superhero based on the Marvel Comics character. Eric Bana stars as Bruce Banner/Hulk. The film explores the origins of Bruce Banner. After a lab accident involving gamma radiation, he finds himself able to turn into a giant green-skinned creature whenever emotionally provoked or stressed. The United States military pursues him, and he comes into conflict with his biological father, who has a dark plan for his son."
+                    }],
+                    "response_type": "text",
+                    "selection_policy": "sequential"
+                }]
+            },
+            "parent": "node_10_1614259905279",
+            "dialog_node": "response_3_1614412630530"
+        },
+        {
+            "type": "response_condition",
+            "output": {
+                "generic": [{
+                    "values": [{
+                        "text": "The Avengers is a 2012 American superhero film based on the Marvel Comics superhero team of the same name. Produced by Marvel Studios and distributed by Walt Disney Studios Motion Pictures, it is the sixth film in the Marvel Cinematic Universe (MCU). Written and directed by Joss Whedon, the film features an ensemble cast including Robert Downey Jr., Chris Evans, Mark Ruffalo, Chris Hemsworth, Scarlett Johansson, and Jeremy Renner as the Avengers, alongside Tom Hiddleston, Clark Gregg, Cobie Smulders, Stellan Skarsgård, and Samuel L. Jackson. In the film, Nick Fury and the spy agency S.H.I.E.L.D. recruit Tony Stark, Steve Rogers, Bruce Banner, and Thor to form a team capable of stopping Thor's brother Loki from subjugating Earth."
+                    }],
+                    "response_type": "text",
+                    "selection_policy": "sequential"
+                }]
+            },
+            "parent": "node_6_1614254259296",
+            "dialog_node": "response_4_1614433164267",
+            "previous_sibling": "response_5_1614433072826"
+        },
+        {
+            "type": "response_condition",
+            "output": {
+                "generic": [{
+                    "values": [{
+                        "text": "In 1995, Danvers becomes Captain Marvel after Earth is caught in the center of a galactic conflict between two alien civilizations.Amidst a mission, Vers, a Kree warrior, gets separated from her team and is stranded on Earth. However, her life takes an unusual turn after she teams up with Fury, a S.H.I.E.L.D. agent."
+                    }],
+                    "response_type": "text",
+                    "selection_policy": "sequential"
+                }]
+            },
+            "parent": "node_2_1614259912842",
+            "dialog_node": "response_5_1614260260130"
+        },
+        {
+            "type": "response_condition",
+            "output": {
+                "generic": [{
+                    "values": [{
+                        "text": "Wanda Maximoff is a native of Sokovia who grew up with her fraternal twin brother, Pietro. In an effort to help purge their country of strife, the twins joined HYDRA and agreed to undergo experiments with the Scepter under the supervision of Wolfgang von Strucker. The two received superpowers as a result, with Wanda attaining various abilities including telekinesis, telepathy, and reality manipulation. When HYDRA fell, the twins joined Ultron to get their revenge on Tony Stark over his weapons killing their family in a bombing, but eventually abandoned him when they discovered Ultron's true intentions to destroy Earth. Wanda and Pietro fought with the Avengers during the Battle of Sokovia to stop Ultron; Pietro was killed during the battle but Wanda survived, and shortly after Ultron's destruction, became a member of the Avengers."
+                    }],
+                    "response_type": "text",
+                    "selection_policy": "sequential"
+                }]
+            },
+            "parent": "node_2_1614259884910",
+            "dialog_node": "response_5_1614412740990"
+        },
+        {
+            "type": "response_condition",
+            "output": {
+                "generic": [{
+                    "values": [{
+                        "text": "The Avengers are a fictional team of superheroes appearing in American comic books published by Marvel Comics. The team made its debut in The Avengers, created by writer-editor Stan Lee and artist/co-plotter Jack Kirby. Labeled \"Earth's Mightiest Heroes\", the Avengers originally consisted of Iron Man, the Wasp, the Hulk, Thor, and Ant-Man."
+                    }],
+                    "response_type": "text",
+                    "selection_policy": "sequential"
+                }]
+            },
+            "parent": "node_6_1614254259296",
+            "dialog_node": "response_5_1614433072826"
+        },
+        {
+            "type": "response_condition",
+            "output": {
+                "generic": [{
+                    "values": [{
+                        "text": "In 2009, T'Chaka's son, Prince T'Challa, adopted the mantle of the Black Panther as his father retired from the role. T'Challa then designed his own Panther Habit, taking inspiration from his father's Habit. In the week following his appointment as Black Panther, T'Challa and Okoye were sent on a mission to save Wakandan hostages from Zanda, a Narobian terrorist, and Douglas Scott. During their confrontation with Zanda, T'Challa was shot in the shoulder with a Vibranium bullet, damaging it."
+                    }],
+                    "response_type": "text",
+                    "selection_policy": "sequential"
+                }]
+            },
+            "parent": "node_1_1614259920862",
+            "dialog_node": "response_6_1614260113356"
+        },
+        {
+            "type": "response_condition",
+            "output": {
+                "generic": [{
+                    "values": [{
+                        "text": "It is 1942, America has entered World War II, and sickly but determined Steve Rogers is frustrated at being rejected yet again for military service. Everything changes when Dr. Erskine recruits him for the secret Project Rebirth. Proving his extraordinary courage, wits and conscience, Rogers undergoes the experiment and his weak body is suddenly enhanced into the maximum human potential. When Dr. Erskine is then immediately assassinated by an agent of Nazi Germany's secret HYDRA research department, Rogers is left as a unique man who is initially misused as a propaganda mascot; however, when his comrades need him, Rogers goes on a successful adventure that truly makes him Captain America, and his war against Schmidt begins."
+                    }],
+                    "response_type": "text",
+                    "selection_policy": "sequential"
+                }]
+            },
+            "parent": "node_7_1614259915082",
+            "dialog_node": "response_7_1614260214450"
+        },
+        {
+            "type": "response_condition",
+            "output": {
+                "generic": [{
+                    "values": [{
+                        "text": "Iron Man is a fictional superhero appearing in American comic books published by Marvel Comics. The character was co-created by writer and editor Stan Lee, developed by scripter Larry Lieber, and designed by artists Don Heck and Jack Kirby. The character made his first appearance in Tales of Suspense, and received his own title in Iron Man. Also in 1963, the character founded the Avengers.A wealthy American business magnate, playboy, philanthropist, inventor and ingenious scientist, Anthony Edward Tony Stark suffers a severe chest injury during a kidnapping. When his captors attempt to force him to build a weapon of mass destruction, he instead creates a mechanized suit of armor to save his life and escape captivity. Later, Stark develops his suit, adding weapons and other technological devices he designed through his company, Stark Industries. He uses the suit and successive versions to protect the world as Iron Man. Although at first concealing his true identity, Stark eventually publicly reveals himself to be Iron Man."
+                    }],
+                    "response_type": "text",
+                    "selection_policy": "sequential"
+                }]
+            },
+            "parent": "node_4_1614259902450",
+            "dialog_node": "response_7_1614412686478"
+        },
+        {
+            "type": "response_condition",
+            "output": {
+                "generic": [{
+                    "values": [{
+                        "text": "Thor Odinson is a fictional character portrayed by Chris Hemsworth in the Marvel Cinematic Universe (MCU) film franchise, based on the Marvel Comics character of the same name. In the films, Thor is one of the most powerful of the Asgardians, an alien civilization with long ties to Earth, who are therefore considered on Earth to be gods. As of 2021, the character is a central figure of the Marvel Cinematic Universe, having appeared in eight films of the series."
+                    }],
+                    "response_type": "text",
+                    "selection_policy": "sequential"
+                }]
+            },
+            "parent": "node_9_1614413194005",
+            "dialog_node": "response_7_1614413239274"
+        },
+        {
+            "type": "response_condition",
+            "output": {
+                "generic": [{
+                    "values": [{
+                        "text": "The Vision is a fictional superhero appearing in Marvel's Avengers. He is an android created by the villainous robot Ultron to eliminate the Avengers, though he quickly turned on his creator to fight as an Avenger for the forces of good. It was created by Roy Thomas and artist John Busceman."
+                    }],
+                    "response_type": "text",
+                    "selection_policy": "sequential"
+                }]
+            },
+            "parent": "node_1_1614413246575",
+            "dialog_node": "response_8_1614413288516"
+        },
+        {
+            "type": "response_condition",
+            "output": {
+                "generic": [{
+                    "values": [{
+                        "text": "The Avengers is a 2012 American superhero film based on the Marvel Comics superhero team of the same name. Produced by Marvel Studios and distributed by Walt Disney Studios Motion Pictures, it is the sixth film in the Marvel Cinematic Universe (MCU). Written and directed by Joss Whedon, the film features an ensemble cast including Robert Downey Jr., Chris Evans, Mark Ruffalo, Chris Hemsworth, Scarlett Johansson, and Jeremy Renner as the Avengers, alongside Tom Hiddleston, Clark Gregg, Cobie Smulders, Stellan Skarsgård, and Samuel L. Jackson. In the film, Nick Fury and the spy agency S.H.I.E.L.D. recruit Tony Stark, Steve Rogers, Bruce Banner, and Thor to form a team capable of stopping Thor's brother Loki from subjugating Earth."
+                    }],
+                    "response_type": "text",
+                    "selection_policy": "sequential"
+                }]
+            },
+            "parent": "node_7_1614259896063",
+            "dialog_node": "response_8_1614433097240"
+        },
+        {
+            "type": "standard",
+            "title": "Welcome",
+            "output": {
+                "generic": [{
+                    "values": [{
+                        "text": "Hello. How can I help you?"
+                    }],
+                    "response_type": "text",
+                    "selection_policy": "sequential"
+                }]
+            },
+            "conditions": "welcome || #Hi",
+            "dialog_node": "Welcome",
+            "previous_sibling": "node_4_1614431464667"
+        }
+    ],
+    "counterexamples": [],
+    "system_settings": {
+        "off_topic": {
+            "enabled": true
+        },
+        "disambiguation": {
+            "prompt": "Did you mean:",
+            "enabled": true,
+            "randomize": true,
+            "max_suggestions": 5,
+            "suggestion_text_policy": "title",
+            "none_of_the_above_prompt": "None of the above"
+        },
+        "system_entities": {
+            "enabled": true
+        },
+        "human_agent_assist": {
+            "prompt": "Did you mean:"
+        },
+        "intent_classification": {
+            "training_backend_version": "v2"
+        },
+        "spelling_auto_correct": true
+    },
+    "learning_opt_out": false,
+    "name": "Bot",
+    "language": "en",
+    "description": ""
+}
